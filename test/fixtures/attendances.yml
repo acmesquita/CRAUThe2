@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  idEvent: 
+  dateEvent: 2017-08-28
+  typeEventy: MyString
+  typeLocomotion: MyString
+  otherPersons: false
+  arrivalLocation: 2017-08-28
+  outputLocaion: 2017-08-28
+  arrivalFirstHospital: 2017-08-28
+  outputFirstHospital: 2017-08-28
+  arrivalSecondHospital: 2017-08-28
+  outputSecondHospital: 2017-08-28
+  description: MyString
+
+two:
+  location: MyString
+  idEvent: 
+  dateEvent: 2017-08-28
+  typeEventy: MyString
+  typeLocomotion: MyString
+  otherPersons: false
+  arrivalLocation: 2017-08-28
+  outputLocaion: 2017-08-28
+  arrivalFirstHospital: 2017-08-28
+  outputFirstHospital: 2017-08-28
+  arrivalSecondHospital: 2017-08-28
+  outputSecondHospital: 2017-08-28
+  description: MyString
