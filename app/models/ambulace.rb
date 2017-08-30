@@ -1,0 +1,2 @@
+class Ambulace < ApplicationRecord
+end
