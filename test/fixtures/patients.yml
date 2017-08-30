@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  age: 
+  sexo: MyString
+  trafficTicket: false
+  safetyEquipment: false
+  eyes: MyString
+  radialPulse: false
+  centralPulse: false
+  bleending: false
+  consciousness: MyString
+  injurySite: MyString
+  fracture: false
+  verbalResponse: false
+  motorResponse: false
+  alcoholic: false
+
+two:
+  name: MyString
+  age: 
+  sexo: MyString
+  trafficTicket: false
+  safetyEquipment: false
+  eyes: MyString
+  radialPulse: false
+  centralPulse: false
+  bleending: false
+  consciousness: MyString
+  injurySite: MyString
+  fracture: false
+  verbalResponse: false
+  motorResponse: false
+  alcoholic: false

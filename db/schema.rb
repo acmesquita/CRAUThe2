@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170830235034) do
+ActiveRecord::Schema.define(version: 20170830235431) do
 
   create_table "ambulaces", force: :cascade do |t|
     t.string "type"
@@ -34,6 +34,26 @@ ActiveRecord::Schema.define(version: 20170830235034) do
     t.datetime "arrivalSecondHospital"
     t.datetime "outputSecondHospital"
     t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "patients", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "sexo"
+    t.boolean "trafficTicket"
+    t.boolean "safetyEquipment"
+    t.string "eyes"
+    t.boolean "radialPulse"
+    t.boolean "centralPulse"
+    t.boolean "bleending"
+    t.string "consciousness"
+    t.string "injurySite"
+    t.boolean "fracture"
+    t.boolean "verbalResponse"
+    t.boolean "motorResponse"
+    t.boolean "alcoholic"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
