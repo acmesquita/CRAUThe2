@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170831001248) do
+ActiveRecord::Schema.define(version: 20170831001642) do
 
   create_table "ambulaces", force: :cascade do |t|
     t.string "type"
@@ -55,6 +55,13 @@ ActiveRecord::Schema.define(version: 20170831001248) do
     t.boolean "verbalResponse"
     t.boolean "motorResponse"
     t.boolean "alcoholic"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "login"
+    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
