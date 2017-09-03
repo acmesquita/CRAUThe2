@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170831001642) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "ambulaces", force: :cascade do |t|
     t.string "type"
     t.boolean "availability"
