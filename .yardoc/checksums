@@ -1,3 +1,6 @@
+app/models/user.rb 3b95f45aed96a2639ca9a1d3c5552c91b6fb2224
+app/models/patient.rb 44bfc498587c1817722d60f579be24d3734ab43f
+app/models/ambulace.rb e2e2b22a88cd055dd1038379b783eb9e0d5c3634
 app/models/attendance.rb 5ad29b58d58c2d512f7cb166c399a06a7dd9d06f
 app/jobs/application_job.rb 9a24c3e30cfb517943d8774df4695ba794bfd69d
 app/models/application_record.rb b40193a5447806d689d114a0f55f392ae7c199e4
