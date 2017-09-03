@@ -68,8 +68,6 @@ ActiveRecord::Schema.define(version: 20170903214742) do
     t.string "document"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "users_id"
-    t.index ["users_id"], name: "index_people_on_users_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -77,7 +75,9 @@ ActiveRecord::Schema.define(version: 20170903214742) do
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "people_id"
+    t.index ["people_id"], name: "index_users_on_people_id"
   end
 
-  add_foreign_key "people", "users", column: "users_id"
+  add_foreign_key "users", "people", column: "people_id"
 end
